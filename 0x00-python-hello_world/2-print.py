@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print("Best School\n")
+print('"Programming is like building a multilingual puzzle\n')
