@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1>Deyinka</h1>
+		<ul>
+			<li>About</li>
+			<li>Portfolio</li>
+			<li>Contact Me</li>
+		</ul>
+	</main>
+</Layout>
+
+<style>
+	main {
+		/* margin: auto; */
+		padding: 0rem 3.0rem;
+		max-width: 100%;
+	}
+
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+</style>
